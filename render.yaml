@@ -1,0 +1,21 @@
+services:
+  - type: pserv
+    name: mysql
+    plan: standard
+    env: docker
+    disk:
+      name: mysql
+      mountPath: /var/lib/mysql
+      sizeGB: 10
+    envVars:
+      - fromGroup: mysql
+
+envVarGroups:
+  - name: mysql
+    envVars:
+      - key: articles
+        value: mysql
+      - key: Env.get(DB_USER)
+        value: Env.get(DB_PASSWORD)
+      - key: MYSQL_PASSWORD
+        generateValue: true
