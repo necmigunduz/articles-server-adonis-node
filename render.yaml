@@ -14,9 +14,9 @@ envVarGroups:
   - name: mysql
     envVars:
       - key: DB_DATABASE
-        value: Env.get(DB_DATABASE)
+        value: articles 
       - key: DB_USER
-        value: Env.get(DB_USER)
+        value: necmi
       - key: DB_PASSWORD
-        value: Env.get(DB_PASSWORD)
+        value: 6421
         generateValue: true
