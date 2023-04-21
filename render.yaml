@@ -13,10 +13,10 @@ services:
 envVarGroups:
   - name: mysql
     envVars:
-      - key: MYSQL_DATABASE
+      - key: DB_DATABASE
         value: Env.get(DB_DATABASE)
-      - key: MYSQL_USER
+      - key: DB_USER
         value: Env.get(DB_USER)
-      - key: MYSQL_PASSWORD
+      - key: DB_PASSWORD
         value: Env.get(DB_PASSWORD)
         generateValue: true
