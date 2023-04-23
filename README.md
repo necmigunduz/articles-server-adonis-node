@@ -31,22 +31,24 @@
 - install dependencies `npm install`,
 - create a .env file in the root folder and add your environment variables including the followings: ,
   ```
-      APP_KEY=**********************,
-      APP_NAME=*************,
-      APP_NAMESPACE=**************,
-      APP_URL=************,
-      CACHE_VIEWS=*************,
-      DATABASE_URL=************,
-      DB_CONNECTION=**************,
-      DB_DATABASE=*******************,
-      DB_HOST=*************,
-      DB_PASSWORD=*************,
-      DB_PORT=****,
-      HASH_DRIVER=**********,
-      HOST=******,
-      NODE_ENV=*********,
+      APP_KEY=**********************
+      APP_NAME=*************
+      APP_NAMESPACE=**************
+      APP_URL=************
+      CACHE_VIEWS=*************
+      DATABASE_URL=************
+      DB_CONNECTION=**************
+      DB_DATABASE=*******************
+      DB_HOST=*************
+      DB_PASSWORD=*************
+      DB_PORT=****
+      HASH_DRIVER=**********
+      HOST=******
+      NODE_ENV=*********
       PORT=****
   ```
+- Install Mysql server, create a user, create a database, add their information to .env file, and start Mysql server locally,
+  (You can use other SQL or NoSQL servers),
 - start the project `npm run start`,
 - for production `npm run build`.
 
