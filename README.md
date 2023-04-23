@@ -29,7 +29,24 @@
 - Clone the repo `git@github.com:necmigunduz/articles-server-adonis-node.git`,
 - cd `cd articles-server-adonis-node` the project,
 - install dependencies `npm install`,
-- create a .env file in the root folder and add your environment variables,
+- create a .env file in the root folder and add your environment variables including the followings: ,
+  ```
+      APP_KEY=**********************,
+      APP_NAME=*************,
+      APP_NAMESPACE=**************,
+      APP_URL=************,
+      CACHE_VIEWS=*************,
+      DATABASE_URL=************,
+      DB_CONNECTION=**************,
+      DB_DATABASE=*******************,
+      DB_HOST=*************,
+      DB_PASSWORD=*************,
+      DB_PORT=****,
+      HASH_DRIVER=**********,
+      HOST=******,
+      NODE_ENV=*********,
+      PORT=****
+  ```
 - start the project `npm run start`,
 - for production `npm run build`.
 
